@@ -1,4 +1,4 @@
-import './NavigationBar.jsx'
+import './Home.jsx'
 
 function App() {
   return (

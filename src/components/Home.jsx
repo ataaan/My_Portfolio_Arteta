@@ -3,9 +3,15 @@ import './Home.jsx'
 function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <h2>Jonathan P. Arteta Portfolio</h2>
-
+      <div className = "page">
+        <nav className = "NavigationBar">
+          <a href = "#home" className = "active">Home</a>
+          <a href = "#about">About</a>
+          <a href = "#project">Project</a>
+          <a href = "#contact">Contact</a>
+        </nav>
+        
+      </div>
     </>
   );
 }

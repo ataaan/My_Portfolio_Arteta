@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+*{
+  margin: 0;
+}
+
+.NavigationBar {
+    position: absolute;
+
+    top: 50px;
+    right: 0px;
+
+    width: 800px;
+    height: 40px;
+
+    border: 3px solid #ff6500;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+
+    background: #533026;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NavigationBar a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Zilla Slab", serif;
+
+  padding: 0px;
+
+}
+
+.NavigationBar .active {
+  color: #ff6500;
+}
+
+.NavigationBar a:hover {
+    color: #ff6500;
+    transform: scale(1.1);
+}
+
+.content {
+  position: absolute;
+
+  left: 31px;
+  top: 168px;
+
+}
+
+.img-container {
+  position: absolute;
+
+  width: 700px;
+  height: 900px;
+
+  right: 150px;
+  bottom: 4px;
+
+}
+
+.person-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+
+  left: 200px;
+  top: 250px;
+}
+
+.hello {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  font-family: "Zilla Slab", serif;
+
+  margin-bottom: 2px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h1 span {
+  color:#ff6500;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  color: white;
+
+  margin-bottom: 2px;
+
+}
+
+.description {
+  font-size: 32px;
+  color: white;
+  font-family: "Zilla Slab", serif;
+
+  margin-bottom: 50px;
+
+}
+
+.about-button {
+  border: 3px solid #ff6500;
+  border-radius: 25px;
+  padding: 5px 10px;
+  background: #533026;
+
+  font-size: 32px;
+  font-family: "Paytone One", sans-serif;
+  color: white;
+
+  cursor: pointer;
+}
+
+  .about-button:hover {
+    color: white;
+    transform: scale(1.1);
+
+}

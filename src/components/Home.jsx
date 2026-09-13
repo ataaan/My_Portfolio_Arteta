@@ -1,15 +1,9 @@
+import { Link } from 'react-router-dom'
 import "../style/Home.css"
 
 function Home() {
   return (
     <>
-      <nav className = "NavigationBar">
-        <a href = "#home" className = "active">Home</a>
-        <a href = "#about">About</a>
-        <a href = "#project">Project</a>
-        <a href = "#contact">Contact</a>
-      </nav>
-      
         <div className = "content" id = "home">
             <p className = "hello">HELLO, THERE!</p>
 
@@ -26,9 +20,10 @@ function Home() {
               and continue  grow as a developer and as a designer.
             </p>
 
-            <button className = "about-button">
+            <Link to="/about" className="about-button">
               More about me
-            </button>
+            </Link>
+
         </div>
 
     <div class = "social-container">

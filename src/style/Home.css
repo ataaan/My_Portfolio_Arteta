@@ -130,6 +130,8 @@ h2 {
 }
 
 .about-button {
+  display: inline-block;
+
   border: 3px solid #ff6500;
   border-radius: 25px;
   padding: 5px 10px;
@@ -138,6 +140,7 @@ h2 {
   font-size: clamp(18px, 1.5vw, 25px);
   font-family: "Paytone One", sans-serif;
   color: white;
+  text-decoration: none;
 
   cursor: pointer;
   transition: 0.2s;

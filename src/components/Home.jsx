@@ -1,6 +1,6 @@
 import "../style/Home.css"
 
-function App() {
+function Home() {
   return (
     <>
       <nav className = "NavigationBar">
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

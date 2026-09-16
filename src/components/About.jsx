@@ -1,12 +1,18 @@
 import { Link } from 'react-router-dom'
+import "../style/About.css"
 
 function About() {
   return (
     <>
-      <div>
-        <h1>About Me</h1>
-        <p className = "name/role-description">
-          I’m Jonathan P. Arteta, <br />
+      <h1 className = "page-title">About Me!</h1>
+      
+      <div class = "about-img-container">
+        <img src="/assets/arteta-about.png" className="about-image" alt="Jonathan-about"/>
+      </div>
+
+      <div className = "about-content">
+        <p className = "name-role-description">
+          I’m <span>Jonathan P. Arteta,</span><br />
           Aspiring Front-end Developer / UI/UX Designer.
         </p>
 
@@ -19,12 +25,8 @@ function About() {
         </p>
 
         <Link to = "/about" className="resume-button">
-          Resume
+            Resume
         </Link>
-      </div>
-
-      <div class = "img-container">
-            <img src="/assets/arteta-about.png" className="about-image" alt="Jonathan-about"/>
       </div>
     </>
   );

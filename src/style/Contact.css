@@ -1,0 +1,18 @@
+.contact-container {
+    padding-left: 100px;
+}
+
+.frontheader {
+    font-family: "Paytone One", sans-serif;
+    font-size: 48px;
+    color:#ff6500;
+
+    padding-bottom: 50px;
+}
+
+.contacts {
+    font-family: "Zilla Slab", serif;
+    font-size: 32px;
+    color: #eeeeee;
+
+}

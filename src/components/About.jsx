@@ -6,14 +6,14 @@ function About() {
     <>
       <h1 className = "page-title">About Me!</h1>
       
-      <div class = "about-img-container">
+      <div className = "about-img-container">
         <img src="/assets/arteta-about.png" className="about-image" alt="Jonathan-about"/>
       </div>
 
       <div className = "about-content">
         <p className = "name-role-description">
           I’m <span>Jonathan P. Arteta,</span><br />
-          Aspiring Front-end Developer / UI/UX Designer.
+          Front-end Developer / UI/UX Designer.
         </p>
 
         <p className = "about-description">

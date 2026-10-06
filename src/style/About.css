@@ -4,13 +4,12 @@
 .about-img-container {
     position: absolute;
 
-    left: 1%;
-    bottom: 50;
+    left: 2%;
+    bottom: 10;
     width: 640px;
     height: 750px;
 
     display: flex;
-    align-items: flex-end;
     justify-content: center;
 }
 

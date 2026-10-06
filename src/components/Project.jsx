@@ -20,10 +20,6 @@ function Project() {
         waiting times and unnecessary visits to the barangay office.
       </p>
 
-      <div class = "proj-container">
-        <img src="/assets/arteta-about.png" className="website-img1" alt="Jonathan-about"/>
-      </div>
-
       <Link className="view-website-button">
         View Website
       </Link>   

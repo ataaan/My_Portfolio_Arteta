@@ -92,7 +92,7 @@
 .button-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .next-proj-button:hover {

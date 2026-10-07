@@ -104,8 +104,8 @@
 .project-img-container {
     position: relative;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
 
     gap: 20px;

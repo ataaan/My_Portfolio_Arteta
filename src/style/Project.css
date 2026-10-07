@@ -4,23 +4,22 @@
 .web-dev-proj-container {
     position: absolute;
 
-    left: 6%;
-    bottom: 50;
+    left: 100px;
     width: 1500px;
     height: 750px;
 }
 
 .proj-title-desc {
-    font-family: "Paytone One", sans-serif;
-    font-size: 32px;
+    font-family: "Paytone One";
+    font-size: 25px;
     font-weight: 900;
 
-    color:#ff6500;
+    color: #ff6500;
 }
 
-.prog-name {
+.proj-name {
     font-family: "Zilla Slab", serif;
-    font-size: 32px;
+    font-size: 25px;
     color: #eeeeee;
 
     padding-left: 50px;
@@ -32,7 +31,7 @@
 
 .web-dev-proj-desc {
     font-family: "Zilla Slab", serif;
-    font-size: 32px;
+    font-size: 25px;
     color: #eeeeee;
 
     padding-left: 80px;
@@ -40,15 +39,21 @@
 }
 
 .view-website-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
     display: inline-flex;
     align-items: center;
 
-    border: 3px solid #ff6500;
-    border-radius: 25px;
+    padding: 8px 15px;
+
+    border: 1px solid #ff6500;
+    border-radius: 15px;
     background: #533026;
 
     font-family: "Paytone One", sans-serif;
-    font-size: 32px;
+    font-size: 15px;
     color: #eeeeee;
 
     text-decoration: none;
@@ -56,7 +61,50 @@
     transition: 0.2s;
 }
 
-.view-website-button{
-    color: white;
-    transform: scale(1.1);
+.view-website-button:hover {
+  color: white;
+  transform: scale(1.1);
+
+}
+
+.next-proj-button,
+.back-proj-button {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 8px 15px;
+
+    border: 1px solid #ff6500;
+    border-radius: 15px;
+    background: #533026;
+
+    font-family: "Paytone One", sans-serif;
+    font-size: 15px;
+    color: #eeeeee;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.next-proj-button:hover,
+.back-proj-button:hover {
+  color: white;
+  transform: scale(1.1);
+
+}
+
+.project-img-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+
+    gap: 20px;
+    justify-content: center;
 }

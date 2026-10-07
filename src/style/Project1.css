@@ -1,0 +1,32 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}   
+
+.next-proj1-button,
+.back-proj1-button {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 8px 15px;
+
+    border: 1px solid #ff6500;
+    border-radius: 15px;
+    background: #533026;
+
+    font-family: "Paytone One", sans-serif;
+    font-size: 15px;
+    color: #eeeeee;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.next-proj1-button,
+.back-proj1-button:hover {
+  color: white;
+  transform: scale(1.1);
+
+}

@@ -27,16 +27,13 @@ function Project() {
 
       <div className = "project-img-container">
         <img src="/assets/image 1.png" className="image1-proj" alt="Image1-project"/>
-        <img src="/assets/image 2.png" className="image1-proj" alt="Image1-project"/>
+        <img src="/assets/image 2.png" className="image2-proj" alt="Image2-project"/>
       </div>
 
       <div className = "button-container">
-        <Link className="next-proj-button">
-          Back
-        </Link>      
-        <Link className="back-proj-button">
+        <Link to = "/Project1" className="next-proj-button">
           Next
-        </Link> 
+        </Link>      
       </div>
 
     </div>

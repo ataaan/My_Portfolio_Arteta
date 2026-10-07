@@ -6,7 +6,7 @@
 
     left: 100px;
     width: 1300px;
-    height: 700px;
+    height: 750px;
 }
 
 .proj-title-desc {
@@ -67,8 +67,10 @@
 
 }
 
-.next-proj-button,
-.back-proj-button {
+.next-proj-button {
+    position: absolute;
+    right: 15px;
+
     display: inline-flex;
     align-items: center;
 
@@ -93,18 +95,21 @@
     margin-top: 20px;
 }
 
-.next-proj-button:hover,
-.back-proj-button:hover {
+.next-proj-button:hover {
   color: white;
   transform: scale(1.1);
 
 }
 
 .project-img-container {
+    position: relative;
+
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     display: flex;
 
     gap: 20px;
+    
     justify-content: center;
+    align-items: center;
 }
